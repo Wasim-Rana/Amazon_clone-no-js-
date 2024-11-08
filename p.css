@@ -1,0 +1,497 @@
+/*.d1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    animation-name: a1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    position: relative;
+    transition-property: all;
+    transition-duration: 5s;
+}
+@keyframes a1 {
+    from{ 
+        left: 0px;
+        top: 0px;
+        background-color: aqua;
+    }
+    50%{ 
+        top: 100px;
+        left:0px
+        background-color: black;
+    }
+    to{ 
+        top: 1px;
+        left: 100px;
+        background-color: brown;
+    }
+
+}
+.d1:hover{
+    height: 150px;
+    width: 150px;
+    transform: rotate(360deg);
+}
+
+.d2{
+    margin: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    transition-property: all;
+    transition-timing-function: initial;
+    transition-duration: 2s;
+}
+
+.d2:hover{
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+    cursor: pointer;
+    background-color: aqua;
+    transform: rotate(360deg);
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+.img{
+    size: 100px;
+    transition-property: all;
+    transition-duration: 5s;
+}
+.img:hover{
+    
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    font-size: 60px;
+    transform: rotatey(360deg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}*/
+*{
+    margin: 0px;
+    font-family: Amazon Ember and Bookerly;
+    border: border-box;
+
+}
+.navbar{
+    display: flex;
+     height: 60px;
+    background-color: #131a22;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 128px;
+
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url('https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg');
+    background-size: cover;
+} 
+
+.border{
+    border: 2px  solid transparent;
+}
+
+.border:hover{
+
+    border: 2px solid white;
+
+}
+.address{
+    margin: 15px;
+    
+}
+.p1{
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 15px ;
+
+
+}
+.p2{
+    color:#ffffff ;
+    font-size: 0.9rem;
+    margin-left: 7px;
+}
+
+.add-logo{
+    
+    display: flex;
+    align-items: center;
+
+}
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    width: 650px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-bar:hover{
+    border: 4px solid orange;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    display: flex;
+    width: 46px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: rgb(241, 148, 17);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.lang{
+    display: flex;
+    background-color: black;
+}
+.lan{
+    
+    color: white;
+
+}
+span{
+    font-size: .85rem;
+}
+.sign a{
+    color: white;
+    text-decoration: none;
+}
+
+.offer{
+    font-size: .85rem ;
+}
+
+.shopping-cart i{
+    font-size: 28px;
+}
+
+.shopping-cart{
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex ;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly ;
+
+}
+.op{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.opt{
+    display: inline;
+    color: white;
+}
+.deals{
+    color: white;
+    font-size: 1rem;
+}
+
+.index{
+    height: 50px;
+    border-bottom: 1px solid rgba(20, 19, 19, 0.422);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+
+}
+.a1{
+   font-size: 30px;
+   font-weight: bold;
+   color: rgb(44, 43, 43);
+}
+.index p:hover{
+   transform: scale(0.9);
+    border-bottom:2px solid orange ;
+}
+.main{
+    background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img23/Fashion/AF/EOSS/flip/EOSS_PC_Herotator._SX3000_QL85_.jpg');
+    height: 400px;
+    background-size: cover;
+    margin: 40px;
+   
+    background-color: #e2e7e6;
+    filter: drop-shadow(8px 8px 10px black);
+}
+
+.lil-main{
+    background-color: bl;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    filter: drop-shadow(8px 8px 10px gray);
+    
+   
+}
+
+.disc{
+    margin-left: 10px;
+    margin-right: 8px;
+    width: 50%;
+    height: 45px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/BAU/Bank/July/one-card.png");
+    background-size: cover;
+    border: 1px solid grey;
+    border: none;
+    border-radius: 2px;
+}
+
+.cash{
+    width: 50%;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/BAU/Bank/March/V1/apay.png");
+    background-size: cover;
+    border: 1px solid grey;
+    border: none;
+    border-radius: 2px; 
+    
+}
+
+.section{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    filter: drop-shadow(8px 8px 10px black);
+    padding: 10px;
+
+}
+
+.box{
+    height: 400px;
+    width: 18%;
+    background-color: white;
+    border: 2px black;
+    margin: 2px;
+    background-size: cover;
+    filter: drop-shadow(8px 8px 10px black);
+    
+}
+
+.boximg{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shopdeals{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+    border: none;
+    font-weight: bold;
+
+}
+.mainsign{
+    height: 200px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.signin{
+    width:100vw ;
+    margin: 10px;
+    justify-content: center;
+     background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+
+}
+.see{
+   height: 15px;
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+.cus{
+height: 15px;
+    margin-top: 10px;
+}
+.cus a{
+    text-decoration: none;
+    color: #007185;
+}
+
+button{
+    margin-left: 630px;
+    cursor: pointer;
+    background-color: #efc764;
+    height: 28px;
+    width: 230px;
+    position: relative;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000;
+    text-shadow: 0 1px 0 #efc764;
+    border-radius: 6px ;
+    filter: drop-shadow(2px 2px 2px #efc764);
+    border-color: orange;
+}
+button a {
+    color: #000;
+    text-decoration: none;
+}
+.panel1{
+    background-color: #37475a;
+    color: white;
+    height: 60px;
+    align-items: center;
+   
+    justify-content: center;
+    display: flex;
+    font-size: .9rem;
+
+    
+}
+.panel1:hover{
+    background-color:  #42566f;
+}
+
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly ;
+   
+}
+
+.panel2 a:hover{
+    text-decoration: underline;
+    
+}
+.panel2 a {
+    text-decoration: none;
+}
+
+ul{
+    margin-top: 100px;
+}
+
+ul a{
+    display: block;
+    margin-top: 7px;
+    font-size: .9rem;
+    color: #dddddd;
+}
+.panel2 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.panle3{
+    height: 100px ;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.7px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    background-image: url('https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg');
+    background-size: cover;
+    height: 40px;
+    width: 70px;
+    mix-blend-mode: color-dodge ;
+}
+
+.panel4{
+    background-color: #222f3d;
+    height: 30px;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+.panel4 a:hover{
+    text-decoration: underline;
+}
+
+.panel4 a{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.panel5{
+    height: 90px;
+    background-color: #131a22;
+    color: #dddddd;
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+    font-size: 0.8rem;
+}
+.panel5 a{
+    color: #dddddd;
+    text-decoration: none;git
+
+}
+.panel5 a:hover{
+    text-decoration: underline;
+}
+.copy{
+    padding-top: 20px;
+  
+}
+.page{
+    margin-top: 10px;
+    
+   
+}

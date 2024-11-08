@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    font-family: Amazon Ember and Bookerly;
+    border: border-box;
+}
+.main0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+.main{
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    display: inline-block;
+     box-shadow: 0 8px 8px -8px rgba(3, 3, 3, 0.2);
+}
+.img{
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    text-align: right;
+}
+.in{
+    margin-left: -10px;
+}
+.logo{
+    
+     height: 60px;
+     width: 120px;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2270561027/display_1500/stock-vector-amazon-logo-icon-logo-sign-art-design-symbol-famous-industry-jeff-bezos-corporate-text-isolated-2270561027.jpg');
+    background-size: cover;
+
+}
+.inner{
+    height: 439px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+   
+
+}
+
+.inter{
+    height:350px ;
+    width: 330px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: inline;
+    padding: 20px 26px 20px 26px;
+    background-color: white;
+}
+.sign_in{
+    font-size: 28px;
+    color: #111111;
+    margin: 0px 0px 10px 10px;
+    padding: 0px 0px 4px;
+    
+
+}
+
+.email{
+    size: 13px;
+    color: #111111;
+    padding: 0px 0px 2px 10px ;
+    font-weight: 800;
+   
+
+}
+
+.text{
+    margin: 9px;
+    height: 31px;
+    width: 296px;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.text:focus{
+    outline: none;
+    border-color: #111111;
+    box-shadow: 0 0 15px #65aeea;
+}
+
+.button{
+    height: 29px;
+    width: 296px;
+    margin: 10px 10px 5px 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 221, 0);
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(255, 195, 17);
+}
+
+.legal{
+    margin-top: 20px;
+    font-size: .85rem;
+    height: 33px;
+    width: 296px;
+    padding: 0px 0px 0px 10px;
+    
+}
+
+ .legal a:hover{
+    text-decoration: underline;
+    color: rgb(255, 184, 53);
+}
+.help a:hover{
+    text-decoration: underline;
+    color: rgb(255, 184, 53);
+}
+
+.help{
+    height: 39px;
+    width: 296px;
+    margin: 15px 10px 0px 10px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+
+}
+a{
+    color: #0066c0;
+    text-decoration: none;
+    
+}
+
+
+.buy{
+    
+    height: 40px;
+    width: 296px;
+    display: flex;
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+.buying{
+    font-size: 0.95rem;
+    color: #111111;
+    font-weight: 800;
+}
+.shopon{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.shopon a:hover{
+    text-decoration: underline;
+    color: rgb(255, 184, 53);
+}
+
+.new {
+    margin-bottom: 14px;
+    padding: 0px 8px 0px 7px;
+    line-height: 1;
+    font-size: 15px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/*h5{
+   
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+}*/
+.new::after{
+    content: " ";
+    width: 100%;
+    background-color:  transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    z-index: -1;
+    
+    
+}
+
+
+.innerbutton{
+    display: flex;
+    height: 29px;
+    width: 358px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: .85rem;
+    text-align: center;
+    justify-content: center;
+    filter: drop-shado (2px 2px 2px #eeeeee);
+
+
+}
+.innerbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+}
+ #butto{
+    text-decoration: none;
+    color: #0f1111;
+    font-size: 13px;
+    text-align: center;
+   width: 358px;
+    padding: 0px 10px 0px 11px ;
+    line-height: 29px;
+    
+
+
+}
+#butto:hover{
+    background-color: #eeeeee;
+}
+span{
+    width: 20px;
+    display: inline-block;
+}
+.last{
+    margin: 10px 0px 10px 0px ;
+
+
+}
+.last1{
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    height: 16px;
+}
+.condition{
+    text-align: center;
+    font-size: 13px;
+   
+
+}
+.last a:hover{
+    text-decoration: underline;
+    color: rgb(255, 184, 53);
+}
+.last2{
+    height: 19px;
+    align-items: center;
+    display: flex;
+    justify-content:center ;
+
+}
+.span4{
+    height: 16px;
+    width: 264px;
+    font-size:.8rem ;
+    text-align: center;
+    color:#555;
+    padding: 0px 0px 0px 15px;
+}
